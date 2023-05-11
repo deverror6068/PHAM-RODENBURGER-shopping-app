@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type= "text/css" href="style.css" >
+    <title>Cpu Ware</title>
+    <link rel="icon" type="image/png" href="icons/logosite.png" />
+</head>
+<body>
+    <header id="navbar" class="nav">    <!-- navbar -->
+        <a class="link" href="http://localhost:8000/home">Accueil</a>
+          <img  class="logo" src="icons/cpulogo.png">
+        <div class="dropdown-1">                                                      <!-- colonne de la navbar -->
+            <button id="i5">Pour du gaming confortable</button>
+            <div class="content">
+                <a class="falselink1" >Core i5</a>
+                <a class="link"   href="http://localhost:8000/details/1">Intel Core i5 11400</a>
+                <a class="link"href="http://localhost:8000/details/2">Intel Core i5 11500</a>
+                <a class="link"href="http://localhost:8000/details/3">Intel Core i5 11600</a>
+                <a class="link"href="http://localhost:8000/details/4">Intel Core i5 11600k</a>
+                
+
+            </div>
+        </div>
+        <div class="dropdown-1">                                                         <!-- colonne de la navbar -->
+            <button id="i7">Pour du gaming exigeant</button>
+            <div class="content">
+                <a class="falselink2" >Core i7</a>
+                <a class="link" href="http://localhost:8000/details/9">Intel Core i7 11700</a>
+                <a class="link" href="http://localhost:8000/details/10">Intel Core i7 11700k</a>
+      
+            </div>
+        </div>
+        <div class="dropdown-1">                                                              <!-- colonne de la navbar -->
+            <button id="i9">Pour etre à la pointe du gaming </button>
+            <div class="content">
+                <a class="falselink3" >Core i9</a>
+                <a class="link" href="http://localhost:8000/details/5">Intel Core i9 10900</a>
+                <a class="link" href="http://localhost:8000/details/6">Intel Core i9 10900k</a>
+                <a class="link" href="http://localhost:8000/details/7">Intel Core i9 10910</a>
+                <a class="link" href="http://localhost:8000/details/8">Intel Core i9 11900k</a>
+      
+            </div>
+        </div>
+        <div>
+          
+        </div>
+    </header>
+    <img src="icons/cpushopping.png" alt="Mon panier" title="Mon panier" class="cart-icon">   <!-- image panier -->
+    <div class="cart-ctn"></div>
+    <button class="price-btn"> tier par prix  croissant</button>   <!-- bouton  prix croissant  -->
+    <button class="price-btnless"> tier par prix décroissant </button>   <!-- bouton  prix décroissant  -->
+<div class="color-picker-ctn">
+    <div class="picker round all selected">All</div>    <!-- catégorie  -->
+    <div class="picker round white"></div>  
+    <div class="picker round red"></div>
+    <div class="picker round blue"></div>
+ 
+</div>
+
+<div class="filters"><div class="filter1"><p><b>Coeurs</b></p>                     <!-- filtres -->
+    <input type="checkbox" name="6" class="cores 6" > 
+    <label for="6">6 coeurs</label>
+    <input type="checkbox" name="8" class="cores 8" > 
+    <label for="8">8 coeurs</label>
+    <input type="checkbox" name="10" class="cores 10" >
+    <label for="10">10 coeurs</label>
+</div>
+
+<div class="filter2" ><p><b>Enveloppe Thermique (TDP)</b></p>
+    <input type="checkbox" name="65" class="watt 65" id="65"> 
+    <label for="65">65 Watts</label>
+    <input type="checkbox" name="125" class="watt 125" id="125"> 
+    <label for="125">125 Watts</label>
+
+</div>
+
+<div class="filter3" ><p><b>Génération de CPU</b></p>
+    <input type="checkbox" name="10" class="gen 10" > 
+    <label for="10">10 ème Génération</label>
+    <input type="checkbox" name="11" class="gen 11" > 
+    <label for="11">11 ème Génération</label>
+
+</div></div>
+
+
+
+<div class="ctn-sneakers"></div> <!--  div des articles -->
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

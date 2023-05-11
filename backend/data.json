@@ -1,0 +1,181 @@
+{
+
+    "sneakers": [
+        {
+            "id": 1,
+            "name": "Air Jordan 1 Retro High University Blue",
+            "price": 470,
+            "release_date": "2021-03-06",
+            "colors": "blue",
+            "delivery_time": 5,
+            "delivery_price": 6,
+            "reduction": 0,
+            "img_1": "sneakers/sneaker1/img1.jpg",
+            "img_2": "sneakers/sneaker1/img2.jpg",
+            "img_3": "sneakers/sneaker1/img3.jpg",
+            "available": true,
+            "sizes": "36.5;37;38;38.5;39;40;40.5;41;42;43;43.5;44;45;45.5;46",
+            "description":"Supreme et Nike rendent hommage à un classique NYC avec la sortie de la Nike Air Force 1 Low Supreme White, désormais disponible sur StockX. Cette collaboration ajoute le Box Logo de Supreme célèbre dans le monde entier sur le côté du traditionnel modèle Air Force 1 entièrement blanc. "
+        },
+        {
+            "id": 2,
+            "name": "Air Force 1 Low White Supreme",
+            "price": 190,
+            "release_date": "2020-03-05",
+            "colors": "white",
+            "delivery_time": 2,
+            "delivery_price": 6,
+            "reduction": 14,
+            "img_1": "sneakers/sneaker2/img1.jpg",
+            "img_2": "sneakers/sneaker2/img2.jpg",
+            "img_3": "sneakers/sneaker2/img3.jpg",
+            "available": false,
+            "sizes": "36.5;37;38;38.5;39;40;40.5;41;42;43;43.5;44;45;45.5;46",
+            "description":"Supreme et Nike rendent hommage à un classique NYC avec la sortie de la Nike Air Force 1 Low Supreme White, désormais disponible sur StockX. Cette collaboration ajoute le Box Logo de Supreme célèbre dans le monde entier sur le côté du traditionnel modèle Air Force 1 entièrement blanc. "
+        },
+        {
+            "id": 3,
+            "name": "Air Jordan 4 University Blue",
+            "price": 330,
+            "release_date": "2021-04-28",
+            "colors": "blue",
+            "delivery_time": 3,
+            "delivery_price": 7,
+            "reduction": 0,
+            "img_1": "sneakers/sneaker3/img1.jpg",
+            "img_2": "sneakers/sneaker3/img2.jpg",
+            "img_3": "sneakers/sneaker3/img3.jpg",
+            "available": true,
+            "sizes": "36.5;37;38;38.5;39;40;40.5;41;42;43;43.5;44;45;45.5;46",
+            "description":"Supreme et Nike rendent hommage à un classique NYC avec la sortie de la Nike Air Force 1 Low Supreme White, désormais disponible sur StockX. Cette collaboration ajoute le Box Logo de Supreme célèbre dans le monde entier sur le côté du traditionnel modèle Air Force 1 entièrement blanc. "
+        },
+        {
+            "id": 4,
+            "name": "Air max Plus Triple Black",
+            "price": 170,
+            "release_date": "2021-06-01",
+            "colors": "black",
+            "delivery_time": 5,
+            "delivery_price": 3,
+            "reduction": 6,
+            "img_1": "sneakers/sneaker4/img1.jpg",
+            "img_2": "",
+            "img_3": "",
+            "available": true,
+            "sizes": "36.5;37;38;38.5;39;40;40.5;41;42;43;43.5;44;45;45.5;46",
+            "description":"Supreme et Nike rendent hommage à un classique NYC avec la sortie de la Nike Air Force 1 Low Supreme White, désormais disponible sur StockX. Cette collaboration ajoute le Box Logo de Supreme célèbre dans le monde entier sur le côté du traditionnel modèle Air Force 1 entièrement blanc. "
+        },
+        {
+            "id": 5,
+            "name": "Nike Air More Uptempo Peace & Love",
+            "price": 160,
+            "release_date": "2021-02-15",
+            "colors": "white",
+            "delivery_time": 8,
+            "delivery_price": 0,
+            "reduction": 10,
+            "img_1": "sneakers/sneaker5/img1.jpg",
+            "img_2": "sneakers/sneaker5/img2.jpg",
+            "img_3": "sneakers/sneaker5/img3.jpg",
+            "available": true,
+            "sizes": "36.5;37;38;38.5;39;40;40.5;41;42;43;43.5;44;45;45.5;46",
+            "description":"Supreme et Nike rendent hommage à un classique NYC avec la sortie de la Nike Air Force 1 Low Supreme White, désormais disponible sur StockX. Cette collaboration ajoute le Box Logo de Supreme célèbre dans le monde entier sur le côté du traditionnel modèle Air Force 1 entièrement blanc. "
+        },
+        {
+            "id": 6,
+            "name": "Dunk Low Disrupt Sea Glass White",
+            "price": 210,
+            "release_date": "2021-08-23",
+            "colors": "white",
+            "delivery_time": 6,
+            "delivery_price": 5,
+            "reduction": 0,
+            "img_1": "sneakers/sneaker6/img1.jpg",
+            "img_2": "sneakers/sneaker6/img2.jpg",
+            "img_3": "sneakers/sneaker6/img3.jpg",
+            "available": true,
+            "sizes": "36.5;37;38;38.5;39;40;40.5;41;42;43;43.5;44;45;45.5;46",
+            "description":"Supreme et Nike rendent hommage à un classique NYC avec la sortie de la Nike Air Force 1 Low Supreme White, désormais disponible sur StockX. Cette collaboration ajoute le Box Logo de Supreme célèbre dans le monde entier sur le côté du traditionnel modèle Air Force 1 entièrement blanc. "
+        },
+        {
+            "id": 7,
+            "name": "SB Dunk Low Pro Fog",
+            "price": 240,
+            "release_date": "2021-12-13",
+            "colors": "black",
+            "delivery_time": 4,
+            "delivery_price": 9,
+            "reduction": 15,
+            "img_1": "sneakers/sneaker7/img1.jpg",
+            "img_2": "sneakers/sneaker7/img2.jpg",
+            "img_3": "sneakers/sneaker7/img3.jpg",
+            "available": true,
+            "sizes": "36.5;37;38;38.5;39;40;40.5;41;42;43;43.5;44;45;45.5;46",
+            "description":"Supreme et Nike rendent hommage à un classique NYC avec la sortie de la Nike Air Force 1 Low Supreme White, désormais disponible sur StockX. Cette collaboration ajoute le Box Logo de Supreme célèbre dans le monde entier sur le côté du traditionnel modèle Air Force 1 entièrement blanc. "
+
+        },
+        {
+            "id": 8,
+            "name": "Air Force 1 Low Metallic Chrome",
+            "price": 180,
+            "release_date": "2021-02-15",
+            "colors": "grey",
+            "delivery_time": 6,
+            "delivery_price": 4,
+            "reduction": 0,
+            "img_1": "sneakers/sneaker8/img1.jpg",
+            "img_2": "sneakers/sneaker8/img2.jpg",
+            "img_3": "sneakers/sneaker8/img3.jpg",
+            "available": true,
+            "sizes": "36.5;37;38;38.5;39;40;40.5;41;42;43;43.5;44;45;45.5;46",
+            "description":"Supreme et Nike rendent hommage à un classique NYC avec la sortie de la Nike Air Force 1 Low Supreme White, désormais disponible sur StockX. Cette collaboration ajoute le Box Logo de Supreme célèbre dans le monde entier sur le côté du traditionnel modèle Air Force 1 entièrement blanc. "
+        },
+        {
+            "id": 9,
+            "name": "Air Force 1 Low 07 LV8 Lakers",
+            "price": 180,
+            "release_date": "2021-10-08",
+            "colors": "grey",
+            "delivery_time": 7,
+            "delivery_price": 0,
+            "reduction": 5,
+            "img_1": "sneakers/sneaker9/img1.jpg",
+            "img_2": "sneakers/sneaker9/img2.jpg",
+            "img_3": "sneakers/sneaker9/img3.jpg",
+            "available": false,
+            "sizes": "36.5;37;38;38.5;39;40;40.5;41;42;43;43.5;44;45;45.5;46",
+            "description":"Supreme et Nike rendent hommage à un classique NYC avec la sortie de la Nike Air Force 1 Low Supreme White, désormais disponible sur StockX. Cette collaboration ajoute le Box Logo de Supreme célèbre dans le monde entier sur le côté du traditionnel modèle Air Force 1 entièrement blanc. "
+        },
+        {
+            "id": 10,
+            "name": "Air Jordan 4 Retro Kaws Grey",
+            "price": 2380,
+            "release_date": "2017-03-31",
+            "colors": "grey",
+            "delivery_time": 7,
+            "delivery_price": 3,
+            "reduction": 12,
+            "img_1": "sneakers/sneaker10/img1.jpg",
+            "img_2": "sneakers/sneaker10/img2.jpg",
+            "img_3": "sneakers/sneaker10/img3.jpg",
+            "available": true,
+            "sizes": "36.5;37;38;38.5;39;40;40.5;41;42;43;43.5;44;45;45.5;46",
+            "description":"Supreme et Nike rendent hommage à un classique NYC avec la sortie de la Nike Air Force 1 Low Supreme White, désormais disponible sur StockX. Cette collaboration ajoute le Box Logo de Supreme célèbre dans le monde entier sur le côté du traditionnel modèle Air Force 1 entièrement blanc. "
+        }
+    ],
+    "category": [
+        {
+            "id": 0,
+            "name": "Commune"
+        },
+        {
+            "id": 1,
+            "name": "Rare"
+        },
+        {
+            "id": 2,
+            "name": "Légendaire"
+        }
+    ]
+    
+}

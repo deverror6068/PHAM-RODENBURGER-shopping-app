@@ -1,0 +1,339 @@
+body{
+    
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: rgba(209, 198, 198, 0.8)  ;
+    
+   
+}
+h1{
+    font-weight: 900;  
+  
+}
+h2{
+    visibility:hidden;
+}
+
+#coloravailable{
+visibility:hidden;  
+}
+#color{
+visibility:hidden;
+}
+#core{
+    visibility: hidden;  /* nombre de coeur */
+}
+
+
+img{
+    width: 350px;
+    height: 350px;  
+   
+}
+
+.img:hover{
+    width:auto;-webkit-transform:scale(1.1);
+    transform:scale(1.1);
+    -webkit-transition:1s ease-in-out;
+    transition:1s ease-in-out;
+}
+
+#tohidden{
+    display: none;  
+}
+
+#threads{
+    visibility: hidden; /* nombre de threads */
+}
+
+td{
+    border: transparent;    /*  colonne et ligne de tbaleau */
+}
+.tr{
+    border:   transparent;
+}
+
+#description{
+    
+    padding-top: 50px;
+    text-align: center;   
+    padding-bottom: 30px;
+
+}
+
+.imagetrailer{   /*  images dessous le caroussel */
+    scale: 0.5;
+}
+
+#trailerimg{
+    height: 250px;
+    width: 750px;
+    margin: 0rem  30rem;        
+
+    
+}
+
+table{
+    margin: 0rem 43rem;
+    padding-bottom: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+#seemore{
+    margin: 0rem 5rem;
+    border-radius: 10px;
+    background-color: rgb(110, 110, 110);
+    width: 100px;
+    height: 30px;
+
+}
+#seemore:hover{
+    cursor: pointer;
+}
+
+
+[name]{          /* images sous le carrousel */
+   border: transparent;  
+   height: 300px;
+   margin: -2rem;
+
+
+    
+}
+
+[name]:hover{
+  
+    cursor: pointer;
+    background-color: rgba(209, 198, 198, 0.5);
+    transition: 1s;
+    scale: 1.1;
+   
+    
+}
+
+h1{
+   margin: 0rem 45rem;
+   padding-bottom: 25px;
+}
+#infos{
+    background-color: rgb(158, 158, 150);
+}
+
+td:not(#infos){
+    background-color: rgb(177, 177, 169);
+}
+
+
+
+#viewless{
+    margin: 0rem 5rem;  /*  boutton voir moins */
+}
+
+#trailers{
+    display:table-caption; /*  positionement des images sous le carrousel */
+  
+    width: 100%;
+}
+
+
+.inline{
+    display: inline-block;     /*  positionement des images sous le carrousel */
+}
+.none{
+    display:none;  /* les autres  images de carrousel qui ne  sont pas affichées */
+}
+.white{
+    color:white;
+}
+ul{
+    
+}
+.inline2{       /*  div qui contient tout les images cliquable sous le carrousel */
+    display:flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    border: 1px solid black;
+    backdrop-filter: blur(7px);
+ 
+   
+    
+}
+.firsthalf{
+
+}
+ul{
+    height: 250px;
+}
+
+
+.button{
+    display: flex;
+    justify-content: space-between;    /*  pour les bouton droite et gauche */
+}
+.button > button {
+    width: 100px;
+    height: 50px;
+    border-radius:35%;
+}
+
+.text >p{
+    display:flex;
+    justify-content: center;
+}
+
+
+.imagetrailer{
+    scale: 0.2;         
+    margin: -2rem;      
+    filter: drop-shadow(10px 10px 10px  black);   /*  petite image dessous le carrousel */
+  
+}
+
+.imagetrailer:hover{
+    filter: drop-shadow(10px 10px 10px  black);
+}
+
+.img{
+    align-self: center;
+    margin: 0rem 45rem;
+    height: 300px;        /*  première partie du carrousel */
+    width: 300px;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    
+}
+.carrousel{
+    border: solid 1px  rgb(167, 157, 157);
+    background-image: url(../bg/cpu.jpg);     /*   le carrousel */
+    background-size: cover;
+    border-radius: 5px;
+    filter: drop-shadow(10px 10px 10px black);
+ 
+
+    
+}
+
+#right{
+    height: 128px;
+    width: 128px;
+    margin: -15rem 1rem;
+    background-image: url(https://raw.githubusercontent.com/deverror6068/JS-challenge-images/main/right-128.ico);    /*  bouton droite et bouton gauche */
+    border: transparent;
+}
+
+#left{
+    height: 128px;
+    width: 128px;
+    margin: -15rem 1rem;
+    background-image: url(https://raw.githubusercontent.com/deverror6068/JS-challenge-images/main/left-128.ico);
+    border: transparent;
+}
+
+
+#left:focus {
+    
+    transition: 1s ;
+    transform: rotateY(360deg);
+    
+    cursor: pointer;
+}
+
+#right:hover { cursor: pointer;}
+#left:hover { cursor: pointer;}
+
+#right:focus {
+ 
+    transition: 1s ;
+    transform: rotateY(360deg);
+    
+    cursor: pointer;
+}
+
+#displayedimg{
+    padding-top: 20px;        
+   
+}
+
+
+
+
+
+#buttonshopnow{
+
+    
+    border: 1px solid transparent;                   /*   bouton ajouter au panier */
+    padding: 15px;
+    padding-right: 20px;
+    cursor: pointer;
+    width: 170px;
+    margin: 0rem 49rem;
+    text-align: left;
+    background-repeat: no-repeat;
+    background-image: url(/icons/shopnow.png);
+    background-size: 48px;
+    background-position: 7rem;
+    padding-top: 10px;
+    background-color: rgba(248, 255, 248, 0.7);
+    border-radius: 20px;
+    filter:drop-shadow(10px 10px 10px  black)
+    
+
+}
+
+#buttonshopnow:hover{
+   opacity: 0.7;
+   scale: 1.1;
+   
+   background-size: 25%;
+ 
+transition: 1s;
+
+
+
+ 
+  
+   
+  
+}
+
+#buttonshopnow:focus{
+    transform: rotateX(-360deg);
+    
+    transition: 1.5s;
+}
+
+
+
+
+#name{
+   
+    padding-right: 20px; 
+    padding: 20px;   /*  nom du produit */
+    padding-bottom: 10px;
+   
+    
+   
+}
+
+#price{
+    margin: 0rem 55rem; 
+    padding-bottom: 6rem;   /* prix du produit */
+    font-family: "Amazon Ember",Arial,sans-serif;;
+}
+
+.emptydiv {
+    width: 350px;
+    margin: -5rem 2rem;
+    padding-bottom: 9rem;
+}
+
+
+.imglegend{
+margin: 0rem 52rem;
+padding-bottom: 10px;
+visibility: visible;
+font-size: 32px;
+font-weight: 1500;
+padding-bottom: 20px;
+}

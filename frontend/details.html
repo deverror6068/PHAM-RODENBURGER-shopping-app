@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Détails produit <%= name %> </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet"  type="text/css" href="http://localhost:8000/details.css">
+      
+    </head>
+    <body>
+ <a href="http://localhost:8000/home"><button> retour au menu</button></a>
+<h1 id="name"><%= name %></h1><h2 id="price"><%= price %> <b>€</b></h2><div class="emptydiv"></div>  <!--  nom et prix  -->
+
+<h2 class="imglegend">Images</h2>
+
+
+<!-- <img src="../<%= image %>"> -->
+
+<div class="carrousel" >   <!--  div du carrousel entier  -->
+    <div class="firsthalf">
+    <div src="" class="img">             
+        <!--<psrc="" class="text"></p> -->
+        <img  id="displayedimg" src="../<%= image %>">  <!-- image affichée -->
+    </div>
+    <div src=""   class="img none">
+        <img id="" src="../<%= image2 %>">  <!-- autres image -->
+    </div>
+    <div src="" class="img none">
+        <img  id=""src="../<%= image3 %>">   
+    </div>
+</div>
+    <div src="" class="button">
+        <button onclick="left()" id="left"></button>  <!--  boutons droite et gauche -->
+        <button onclick="right()" id="right"></button>
+    </div>
+    
+    <div src="" class="inline2">   <!-- 2 ème moitié contenant les aperçus des images  -->
+        <ul>
+            <div src=""  name="one" class="inline" href="#" id="0" onclick="take()">  <!--  divs et aperçus des images -->
+                <img src="../<%= image %>" class="imagetrailer"  onclick="take()">
+            </div>
+            <div src="" name="two" class="inline white" id="1" onclick="take1()">
+                <img src="../<%= image2 %>" class="imagetrailer"  onclick="take1()">
+            </div>
+            <div src=""  name="three" class="inline white" id="2"  onclick="take2()">
+                <img src="../<%= image3 %>" class="imagetrailer"  onclick="take2()">
+            </div>
+
+        </ul>
+    </div>
+</div>
+
+
+<p id="description"><%= description %></p> <!-- description -->
+
+
+
+<p id ="tohidden"> <%= id %></p> 
+        
+
+
+
+
+<div id="tab">    <!--  tableau  des caractéristiques -->
+    <h1>Caracteristiques :</h1>
+    <table>
+    <tr>
+        <td id="infos">nom</td>
+        <td> <%= name %></td>
+       
+    </tr>
+    <tr> 
+        <td id="infos">nombre de coeurs</td>
+        <td><%= cores %></td>
+    </tr>
+    <tr>
+        <td  id="infos">nombre de threads</td>
+        <td><%= threads %></td>
+    </tr>
+    <tr>
+        <td id="infos">fréquence max</td>
+        <td><%= frequence %></td>
+       
+    </tr>
+    <tr> <td id="infos">mémoire maximum supportée</td>
+         <td> <%= memoire %></td>
+    </tr>
+
+</table>
+</div>
+<div id="trailers">   <!--  images de promotions -->
+    <img  id="trailerimg" src="../<%= imagetrailer %>">
+    <img id="trailerimg" src="../<%= imagetrailer2 %>">
+    <img  id="trailerimg" src="../<%= imagetrailer3 %>">
+</div>
+
+    </body>
+    <script  src="http://localhost:8000/details.js"> </script>
+    <script src="http://localhost:8000/detailscript.js"></script>
+
+</html>

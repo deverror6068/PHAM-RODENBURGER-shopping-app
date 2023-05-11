@@ -1,0 +1,480 @@
+* {
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;   /*  lien */
+    color: rgb(102, 171, 211);
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+
+.ctn-sneakers {
+    width: 100%;
+    display: flex;  /*  div contenant les article */
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sneaker-item {
+    display: flex;
+    flex-direction: column;   /*  div  pour un article */
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.price-btn{
+    background-image: url(https://raw.githubusercontent.com/deverror6068/JS-challenge-images/main/increase.ico);
+    height: 48px;
+    width: 130px;
+    background-repeat: no-repeat;
+    background-position: 5rem 0.1rem;         /* bouton  prix décroissant */
+    text-align: left;
+    border: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(223, 219, 212);
+  
+}
+
+
+.price-btn:hover{
+   
+ scale: 1.05;
+ transition: 1s ;
+ opacity: 0.9;
+}
+
+.price-btnless{
+    background-image: url(https://raw.githubusercontent.com/deverror6068/JS-challenge-images/main/decrease.ico);
+    height: 48px;
+    width: 130px;
+    background-repeat: no-repeat;
+    background-position: 5rem 0.1rem;       /* bouton prix décroissant */
+    text-align: left;
+    border: transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(223, 219, 212);;
+}
+
+.price-btnless:hover{
+    scale: 0.9;
+    transition: 1s;
+    opacity: 0.9;
+}
+
+
+.sneaker-img {
+    width: 300px;   /* image d'un article */
+    
+}
+
+.color-picker-ctn {
+    margin: 10px 0;
+    display: flex;   /* div  pour sélectionner une catégorie */
+    gap: 10px;
+    width: 50%;
+}
+
+
+
+
+.round {
+    width: 64px;
+    height: 64px;
+  
+    border: 1px solid black;        /*   catégorie div */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue {background-image: url(cpus/cpu-pickers/i5.png)}
+.red {background-image: url(cpus/cpu-pickers/i7.png)}        /*   catégorie div */
+
+.white {background-image: url(cpus/cpu-pickers/i9.png);}
+
+.selected {
+   scale: 1.1;   
+   transition: 1s;
+}
+
+.cart-icon {
+    position: absolute;   /* icon  ouvrir fermer le panier */
+    width: 50px;
+    height: 50px;
+    top: 10px;
+    right: 10px;
+    z-index: 10;
+    transition: 1s;
+    cursor: pointer;
+   
+}
+
+.cart-ctn {
+    background: #f5f5f5;
+    position: absolute;
+    top: 0;                /* panier */
+    right: -500px;
+    width: 500px;
+    height: 100vh;
+    max-width: 100vw;
+    z-index: 9;
+    padding-top: 80px;
+    transition: 1s;
+}
+
+.open-cart {
+    right: 0;   /*  ouverture du panier */
+    transition: 1s;
+    
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    /* div d'un article du panier */
+    padding: 0 40px;
+}
+
+.cart-sneaker-img {
+    width: 50px;           /*  image d'article */
+    border-radius: 50%;
+}
+
+.percentoff{
+    align-items: right;  /*   pourcentage de réduc */
+}
+
+#ancienprice{
+   position: relative;      /* prix précédent */
+   text-align: center;
+   
+ 
+}
+#price{
+    position: relative;
+    text-align: center;    /* prix */
+    
+  
+ }
+ 
+
+#shopnow{
+    height: 30px;  
+    width: 30px;
+}
+
+#buttonshopnow{
+
+    background-color: rgb(223, 219, 212);   /*  bouton panier */
+    border: 1px solid transparent;
+
+}
+#buttonshopnow:hover{
+  
+   zoom: 1.1;
+    transition: 1.5s;
+    cursor: pointer;
+    z-index: -2;
+}
+
+
+.filters{
+    display: flex;
+    padding-top: 200px;     
+    padding-bottom: 500px;
+    margin:  -20rem 20rem;
+}
+
+.filter1{
+    padding-right: 2rem;
+}
+
+                                                          /*   filtres */
+
+.logo:hover{
+transform: rotateZ(360deg);
+transition: 1s;
+}
+
+
+.filter2{
+    padding-right: 2rem;
+}
+.filter3{
+    padding-right: 2rem;
+}
+
+#mybasket{
+    margin:0rem 10rem;
+}
+#removeall{
+    background-image: url(https://raw.githubusercontent.com/deverror6068/JS-challenge-images/main/deleteall.ico);  /* bouton vider le panier */
+    height: 48px;
+    width: 140px;
+    background-repeat: no-repeat;
+    background-position: 6rem 0.1rem;
+    text-align: left;
+    border: 2px solid grey;
+    border-radius: 10px;
+    background-color: rgba(211, 32, 32, 0.4);
+    border: 1px transparent;
+}
+
+#removeall:hover{
+    background-color: rgba(82, 4, 4, 0.4);
+    cursor: pointer;
+
+}
+
+#toremove{
+    background-image: url(https://raw.githubusercontent.com/deverror6068/JS-challenge-images/main/trashcan.ico);        /*  boutton supprimer l'article */
+    height: 48px;
+    width: 120px;
+    background-repeat: no-repeat;
+    background-position: 4rem 0.1rem;
+    text-align: left;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+#toremove:hover{
+    background-image: url(https://raw.githubusercontent.com/deverror6068/JS-challenge-images/main/trashcanopened.ico);
+    background-repeat: no-repeat;
+    background-position: 4rem 0.1rem;
+    text-align: left;
+    background-color: rgba(216, 15, 15, 0.4);
+    cursor: pointer;
+}
+
+#orderbutton{
+    border: transparent;
+    /*background-color: rgb(63, 206, 63);*/
+    background-image: url(https://raw.githubusercontent.com/deverror6068/JS-challenge-images/main/order.ico);  /* commander */
+    border-radius: 20px;
+    width: 148px;
+    height: 48px;
+    margin: -10rem 11rem;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 5rem 0.1rem;
+    background-color: rgb(154, 231, 205);
+    text-align: left;
+    border: 1px transparent;
+    cursor: pointer;
+}
+
+#orderbutton:hover{
+filter: opacity(0.8);
+
+
+}
+
+#orderdiv{
+    padding-top: 20px; 
+}
+
+
+#viewmore{
+    height: 32px;
+    width: 32px;          
+    margin: -0.6rem;
+    padding-left: 5px;
+}
+#buttonviewmore{               /*  bouton voir fiche produit */
+    height: 27px;
+    background-color: transparent;
+    border: 1px white ;
+    
+    
+}
+#buttonviewmore:hover{
+ filter: drop-shadow(10px 10px 10px black);
+ transition: 1s;
+ color: #a5a2a2;
+ cursor: pointer;
+
+    
+}
+
+
+header {
+    width: 102%;
+    height: 70px;
+    background-color: #9e9b9b;              /*  navbar */
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: -1rem;
+    margin-left: -0.7rem;
+    flex-direction: row;
+    margin-bottom: 1rem;
+    
+}
+
+header > .link,
+header button {
+    color: white;
+    margin: 0 15px;
+    font-size: 1.3em;
+}
+
+header > a:hover {
+    color: red;
+}
+
+header button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+header button:hover{
+    color: red;
+    transition: 1s;
+}
+
+header .dropdown-1{
+    position: relative;                                  
+    height: 100%;
+    display: flex;
+    
+}
+
+
+header .dropdown-1 .content {
+    display: none;
+    z-index: 3;
+    opacity: 0.95;
+}
+
+header .dropdown-1:hover .content {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #a39d9d;
+    top: 70px;
+    width: 120%;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    color: black;
+    z-index: 3;
+   
+    
+}
+
+.content:hover{
+    transition: 1s;
+}
+
+header .content .link {
+    color: black;
+    padding: 3px 0;
+    z-index: 3;
+}
+
+header .content .link:hover {
+    color: rgb(82, 132, 161);
+    transition: 0.5s;
+}
+
+header .icon {
+    display: none;
+}
+
+@media (max-width: 650px) {
+    header > a,
+    header button {
+        display: none;
+    }
+    header .icon {
+        display: block;
+        position: absolute;
+        right: 0;
+        width: 5% !important;
+        top: 20px;
+        padding: 0 !important;
+        cursor: pointer;
+    }
+
+
+    header.responsive > a {
+        padding: 10px 0;
+        z-index: 3;
+    }
+    header.responsive > .link,
+    header.responsive .dropdown-1 {
+        display: block;
+        width: 100%;
+        z-index: 3;
+    }
+
+    header.responsive button {
+        display: block;
+        padding: 10px 0;
+    }
+
+    header {
+        flex-direction: column;
+        min-height: 70px;
+        height: 100%;
+        align-items: flex-start;
+        z-index: 3;
+        
+    }
+
+    header .dropdown-1:hover .content {
+        position: relative;
+        width: 100%;
+        top: 0;
+        padding: 10px 25px;
+        z-index: 3;
+        
+    }
+    
+    
+    
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+    padding-top: 17px;
+    scale: 0.9;
+}
+
+
+.falselink1{
+    color: #154cc4;
+    font-weight: bolder;
+}
+
+.falselink2{
+    color: #9f1cd3;
+    font-weight: bolder;            /*    Titre par catégorie navbar */
+}
+
+.falselink3{
+    color: #05050e;
+    font-weight: bolder;
+}
+
+#i5:hover{
+color: #3060c7;
+}
+#i7:hover{
+color:  rgb(164, 77, 199);
+}
+
+#i9:hover{
+color: black;
+}
